@@ -11,7 +11,8 @@ namespace WebAppsNet
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Response.Write("Hi, This is Default.aspx");
+            Response.Write("Hi, This is Default.aspx,This is not yet staged");
         }
     }
 }
